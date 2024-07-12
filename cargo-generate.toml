@@ -1,0 +1,38 @@
+[placeholders.mcu]
+type = "string"
+prompt = "Choose your HPM mcu"
+choices = [
+    "hpm5301",
+    "hpm5321",
+    "hpm5331",
+    "hpm5361",
+    "hpm6220",
+    "hpm6240",
+    "hpm6260",
+    "hpm6264",
+    "hpm6280",
+    "hpm6284",
+    "hpm6320",
+    "hpm6330",
+    "hpm6340",
+    "hpm6350",
+    "hpm6360",
+    "hpm6364",
+    "hpm6420",
+    "hpm6430",
+    "hpm6450",
+    "hpm6454",
+    "hpm64a0",
+    "hpm64g0",
+    "hpm6730",
+    "hpm6750",
+    "hpm6754",
+    "hpm6830",
+    "hpm6850",
+    "hpm6880",
+    "hpm6e50",
+    "hpm6e60",
+    "hpm6e70",
+    "hpm6e80",
+]
+default = "hpm5301"

@@ -1,0 +1,12 @@
+[build]
+target = "riscv32imafc-unknown-none-elf"
+
+[target.riscv32imafc-unknown-none-elf]
+# TODO: Change the chip series to your chosen one, check `HPMicro.yaml` for available options
+runner = "probe-rs run --chip HPM5361 --protocol jtag --chip-description-path HPMicro.yaml --speed 20000000"
+
+[unstable]
+build-std = ["core", "alloc"]
+
+[env]
+DEFMT_LOG = "info"
