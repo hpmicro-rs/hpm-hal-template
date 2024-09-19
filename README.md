@@ -6,7 +6,7 @@ Template repo for Rust hpm-hal
 
 1. Install `cargo-generate`: `cargo install cargo-generate`
 
-2. Create your project: `cargo generate --git https://github.com/hpmicro/hpm-template`
+2. Create your project: `cargo generate --git https://github.com/hpmicro-rs/hpm-template`
 
 3. Choose your MCU
 
