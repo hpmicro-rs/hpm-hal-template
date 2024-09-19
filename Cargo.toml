@@ -4,14 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-hpm-hal = { version = "0.0.1", git = "https://github.com/hpmicro-rs/hpm-hal", rev = "4013f69", features = [
+hpm-hal = { version = "0.0.1", git = "https://github.com/hpmicro-rs/hpm-hal", rev = "8ac53b0007ab7c353b8def3ccdfbb564ec387af8", features = [
     "rt",
     "embassy",
     "{{ mcu }}",
 ] }
-# hpm-metapac = { version = "0.0.3" }
 embassy-time = { version = "0.3.0", features = ["tick-hz-1_000_000"] }
-embassy-executor = { version = "0.5.0", features = [
+embassy-executor = { version = "0.6.0", features = [
     "nightly",
     "integrated-timers",
     "arch-riscv32",
